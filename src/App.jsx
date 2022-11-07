@@ -49,7 +49,7 @@ function App() {
 
   return (
     <div className="App">
-      <h1>Form generator</h1>
+      <h1>Cover letter generator</h1>
       <h2>Inputs</h2>
       <div className="inputs">
         <label htmlFor="recipient">Recipient:</label>
