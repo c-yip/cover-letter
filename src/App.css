@@ -9,4 +9,13 @@
   flex-direction: column;
   gap: 10px;
   max-width: fit-content;
+  padding: 1em;
+}
+
+.display {
+  background-color: white;
+  color: black;
+  padding: 1em;
+  border-radius: 5px;
+  max-width: fit-content;
 }
