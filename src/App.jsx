@@ -11,7 +11,7 @@ function App() {
 
   function handleInputChange(event) {
     const { name, value } = event.target;
-    setData({ ...data, [name]: value });
+    setData({ ...data, [name]: value.trim() });
     console.log(data);
   }
 
