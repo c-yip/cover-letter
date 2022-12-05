@@ -15,6 +15,22 @@ function App() {
     console.log(data);
   }
 
+  function handleCheck(event) {
+    const { checked } = event.target;
+    console.log("checked");
+    if (checked) {
+      setData((prevState) => ({
+        ...prevState,
+        recipient: "Hiring manager",
+      }));
+    } else {
+      setData((prevState) => ({
+        ...prevState,
+        recipient: "",
+      }));
+    }
+  }
+
   //edit these to change paragraphs
 
   function paragraph1() {
@@ -53,8 +69,14 @@ function App() {
       <h1>Cover letter generator</h1>
       <h2>Inputs</h2>
       <div className="inputs">
-        <label htmlFor="recipient">Recipient:</label>
-        <input type="text" name="recipient" onChange={handleInputChange} />
+        <div className="recipient-container">
+          <label htmlFor="recipient">Recipient:</label>
+          <br />
+          <input type="text" name="recipient" onChange={handleInputChange} />
+          <br />
+          <input type="checkbox" name="anon" onChange={handleCheck} />
+          <label htmlFor="anon">Anon</label>
+        </div>
 
         <label htmlFor="company">Company:</label>
         <input type="text" name="company" onChange={handleInputChange} />
