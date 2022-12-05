@@ -67,7 +67,7 @@ function App() {
       </div>
 
       <h2>Display</h2>
-      <div className="display">
+      <div className="display" contentEditable="true">
         <p>Dear {data.recipient},</p>
         {paragraph1()}
         {paragraph2()}
