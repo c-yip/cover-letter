@@ -1,5 +1,4 @@
 import { useState } from "react";
-import reactLogo from "./assets/react.svg";
 import "./App.css";
 
 function App() {
@@ -56,16 +55,19 @@ function App() {
       <div className="inputs">
         <label htmlFor="recipient">Recipient:</label>
         <input type="text" name="recipient" onChange={handleInputChange} />
+
         <label htmlFor="company">Company:</label>
         <input type="text" name="company" onChange={handleInputChange} />
+
         <label htmlFor="title">Title:</label>
-        <input type="text" name="position" onChange={handleInputChange} />
+        <input type="text" name="title" onChange={handleInputChange} />
+
         <label htmlFor="position">Position:</label>
         <input type="text" name="position" onChange={handleInputChange} />
       </div>
 
+      <h2>Display</h2>
       <div className="display">
-        <h2>Display</h2>
         <p>Dear {data.recipient},</p>
         {paragraph1()}
         {paragraph2()}
