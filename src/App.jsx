@@ -37,7 +37,9 @@ function App() {
     return (
       <p>
         Please accept my application for the {data.title} position at{" "}
-        {data.company}. Although I may not have professional experience as a{" "}
+        {data.company}. Earlier this year, I decided to switch my focus in life
+        from advising and advocating for others as an attorney to building
+        software. Although I may not have professional experience as a{" "}
         {data.position}, through my years of working as an attorney in a
         fast-paced, stressful, and demanding environment, I have learned how to
         self-manage, work proactively, and self-teach to keep up with the
@@ -52,14 +54,17 @@ function App() {
   function paragraph2() {
     return (
       <p>
-        Earlier this year, I decided to switch my focus in life from advising
-        and advocating for others as an attorney to building software. Over the
-        course of this year I have learned to build dynamic websites, utilizing
-        frameworks and libraries like React, Bootstrap, and Jest for web
-        development, while controlling all my projects on GitHub. I look forward
-        to sharing more about my skills and experiences and how they could help
-        me hit the ground running with {data.company}. Feel free to contact me
-        at (818) 319-2005 or christianyip92@gmail.com.
+        Over the course of this year I have learned to build dynamic web
+        applications, utilizing frameworks and libraries like React, Bootstrap,
+        and Jest for web development, while controlling all my projects on
+        GitHub. Some of my projects include a React e-commerce website, a React
+        application that generates resumes, and a weather application. My
+        projects and their associated GitHub repositories are featured in my
+        portfolio, <a href="https://cyip.dev">cyip.dev</a>. Currently, I am
+        learning Node.js in order to start building full stack applications. I
+        look forward to sharing more about my skills and experiences and how
+        they could help me hit the ground running with {data.company}. Feel free
+        to contact me at (818) 319-2005 or christianyip92@gmail.com.
       </p>
     );
   }
