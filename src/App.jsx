@@ -54,14 +54,14 @@ function App() {
   function paragraph2() {
     return (
       <p>
-        Over the course of this year I have learned to build dynamic web
+        Over the course of this year, I have learned to build dynamic web
         applications, utilizing frameworks and libraries like React, Bootstrap,
         and Jest for web development, while controlling all my projects on
         GitHub. Some of my projects include a React e-commerce website, a React
         application that generates resumes, and a weather application. My
         projects and their associated GitHub repositories are featured in my
         portfolio, <a href="https://cyip.dev">cyip.dev</a>. Currently, I am
-        learning Node.js in order to start building full stack applications. I
+        learning Node.js in order to start building full-stack applications. I
         look forward to sharing more about my skills and experiences and how
         they could help me hit the ground running with {data.company}. Feel free
         to contact me at (818) 319-2005 or christianyip92@gmail.com.
